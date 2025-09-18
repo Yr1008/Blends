@@ -1,0 +1,10 @@
+import type { CapacitorConfig } from '@capacitor/core';
+
+const config: CapacitorConfig = {
+  appId: 'com.blend.editor',
+  appName: 'Blend',
+  webDir: 'www', // We will place our index.html here
+  bundledWebRuntime: false,
+};
+
+export default config;
